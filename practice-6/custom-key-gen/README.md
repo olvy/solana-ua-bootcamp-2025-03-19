@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+https://olvy.github.io/solana-ua-bootcamp-2025-03-19/
+
+# OR in the local environment
+
 - npm install
 - npm run dev
 - http://localhost:3000/
