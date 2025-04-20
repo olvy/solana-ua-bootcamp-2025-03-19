@@ -1,0 +1,26 @@
+[package]
+name = "on-rust-1-6"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+
+
+[dependencies]
+solana-sdk = "1.18"
+solana-client = "1.18"
+solana-program = "1.18"
+spl-token = "4.0"
+spl-associated-token-account = "2.3"
+# mpl-token-metadata = "3.2.3"
+mpl-token-metadata = "5.1.0" # used in create token metadata
+borsh = "0.10"
+anyhow = "1.0"
+dotenv = "0.15.0"
+serde_json = "1.0.85"
