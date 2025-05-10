@@ -77,10 +77,9 @@ pub mod favorites {
             color
         );
 
-        context
-            .accounts
-            .favorites
-            .set_inner(Favorites { number, color });
+        // Update the existing `Favorites` account
+        context.accounts.favorites.number = number;
+        context.accounts.favorites.color = color;
         Ok(())
     }
 
