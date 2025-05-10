@@ -1,0 +1,27 @@
+[package]
+name = "favorites"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "favorites"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+
+[dependencies]
+anchor-lang = "0.31.1"
+proc-macro2 = "=1.0.95"
+anchor-spl = "0.31.1"
+# dotenvy = "0.15.7"
+# solana-client = "2.2.7"
+# solana-sdk = "2.2.2"
+
